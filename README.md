@@ -2,6 +2,7 @@
 Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTorch.
 
 # content-structure
+````
 <b>complete-deep-learning</b>
 ├── datasets
 │   ├── images                          # Image datasets (e.g., CIFAR, ImageNet)
@@ -61,3 +62,4 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 │   │   └── bert
 │   └── auto-encoders
 └── <b>model-training</b>
+```
