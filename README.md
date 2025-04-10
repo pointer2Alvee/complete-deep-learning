@@ -1,9 +1,9 @@
 # complete-deep-learning
 Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTorch.
 
-# content-structure
+## content-structure
 ```
-<b>complete-deep-learning</b>
+complete-deep-learning
 ├── datasets
 │   ├── images                         
 │   ├── text                        
@@ -24,7 +24,7 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 │   │   └── model-deptth-breadth
 │   ├── meta-parameters
 │   └── hyper-parameters
-├── <b>neural-network-concepts </b>
+├── neural-network-concepts
 │   ├── regularization
 │   │   ├── prevent-overfitting-underfitting
 │   │   ├── weight-reg
@@ -47,7 +47,7 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 │   │   ├── cross-validation
 │   │   ├── overfitting-underfitting
 │   │   └── hyper-parameter-tuning
-├── <b>advanced-neural-network-architecture</b>
+├── advanced-neural-network-architecture
 │   ├── ffn
 │   ├── cnn
 │   │   ├── convolution
@@ -61,5 +61,5 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 │   ├── transformer-models
 │   │   └── bert
 │   └── auto-encoders
-└── <b>model-training</b>
+└── model-training
 ```
