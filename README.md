@@ -5,10 +5,10 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 ```
 <b>complete-deep-learning</b>
 ├── datasets
-│   ├── images                          # Image datasets (e.g., CIFAR, ImageNet)
-│   ├── text                            # Text datasets (e.g., IMDB reviews, Wikipedia)
-│   ├── audio                           # Audio datasets (e.g., Speech commands)
-│   └── misc                            # Other formats (.csv, .json, .xlsx, etc.)
+│   ├── images                         
+│   ├── text                        
+│   ├── audio                        
+│   └── misc                           
 ├── basic-neural-network-architecture
 │   ├── neuron (perceptron)
 │   ├── neural-net-layers
