@@ -5,25 +5,28 @@ Comprehensive Deep Learning concepts &amp; Architectures implemented using PyTor
 ```
 complete-deep-learning
 ├── datasets
-│   ├── images                         
-│   ├── text                        
-│   ├── audio                        
-│   └── misc                           
+│   └── images-text-audio-misc
+│
+├── math-foundations
+│   ├── linear-algebra
+│   ├── calculus
+│   └── probability-stats
+│                                              
 ├── basic-neural-network-architecture
-│   ├── neuron (perceptron)
+│   ├── neuron-perceptron
 │   ├── neural-net-layers
+│   │   ├── input-hidden-output-layers
 │   ├── activation-functions
-│   ├── ann
+│   ├── ann (multilayer-perceptron)
 │   │   ├── geometric-view
-│   │   ├── ann-maths
-│   │   ├── ann-regression
-│   │   ├── ann-clasification
+│   │   ├── ann-maths (forwardprop, error-los-cost, backrprop)
+│   │   ├── ann-regression-clasification
 │   │   ├── multi-layer-ann
 │   │   ├── multi-output-ann
-│   │   ├── random-forest
-│   │   └── model-deptth-breadth
+│   │   └── model-depth-breadth
 │   ├── meta-parameters
 │   └── hyper-parameters
+│
 ├── neural-network-concepts
 │   ├── regularization
 │   │   ├── prevent-overfitting-underfitting
@@ -37,21 +40,28 @@ complete-deep-learning
 │   ├── optimization
 │   │   ├── loss-cost-functions
 │   │   ├── gradient-descent
+│   │   |   ├── vanilla-gd, sgd, minibatch-sgd
 │   │   ├── adaptive-optimization-algorithms
+│   │   |   ├── momentum, nag, adagrad, rmsprop, adam, adamw
 │   │   ├── learning-schedules
 │   │   ├── weight-investigations
 │   │   ├── numerical-stability
-│   │   ├── meta-parameter optimization
-│   │   └── hyper-parameter optimization
+│   │   ├── meta-parameter-optimization
+│   │   └── hyper-parameter-optimization
 │   └── generalization
-│   │   ├── cross-validation
-│   │   ├── overfitting-underfitting
-│   │   └── hyper-parameter-tuning
+│       ├── cross-validation
+│       ├── overfitting-underfitting
+│       └── hyper-parameter-tuning
+│
+├── computational-performance
+│   └── run-on-gpu
+│
 ├── advanced-neural-network-architecture
 │   ├── ffn
-│   ├── cnn
+│   ├── cnn-modern-cnn
 │   │   ├── convolution
-│   │   └── cnn-architecture
+│   │   ├── cannonical-cnn
+│   │   └── cnn-adv-architectures
 │   ├── rnn
 │   │   ├── lstm
 │   │   ├── gru
@@ -60,6 +70,18 @@ complete-deep-learning
 │   ├── attention-mechanism
 │   ├── transformer-models
 │   │   └── bert
-│   └── auto-encoders
-└── model-training
+│   └── encoders
+│       └── autoencoders
+│
+├── model-training
+│   ├── transfer-learning
+│   ├── style-transfer
+|   ├── training-loop-structure (epoch, batch, loss logging)
+|   ├── callbacks (custom logging, checkpointing)
+|   ├── experiment-tracking (Weights & Biases, TensorBoard)
+│   └──  multitask-learning
+└── model-evaluation
+|   ├── accuracy-precision-recall-f1-auc-roc
+|   └── confusion-matrix
+└── papers-to-code
 ```
