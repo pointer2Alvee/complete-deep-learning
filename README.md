@@ -7,11 +7,11 @@
 
 ## 📜 complete-deep-learning
 #### 🧠 Overview 
-Complete Deep Learning concepts &amp; Architectures implemented using PyTorch. This is a comprehensive Deep Learning roadmap and implementation using PyTorch — starting from core math foundations to state-of-the-art neural network architectures. The repository is designed to give a solid theoretical and practical understanding of deep learning, structured progressively to cover foundational concepts, mathematical intuition, model architectures, training, evaluation, and deployment.
+Complete Deep Learning concepts &amp; Architectures implemented using PyTorch. This is a comprehensive Deep Learning roadmap and implementation using PyTorch — starting from core math foundations to state-of-the-art neural network architectures. The repository is designed to give a solid theoretical and practical understanding of deep learning, structured progressively to cover foundational concepts, mathematical intuition, model architectures, training, and evaluation.
 
 #### 🎯 Use Cases 
-- Implementing DL algorithms/models pytorch
-- Learning the mathematical foundation of deep learning
+- Implementing DL algorithms/models/concepts using python & pytorch
+- Learning & implementing the mathematical foundation of deep learning using python & pytorch
 - Learn deep learning from scratch with a mathematical + implementation-first approach
 - Study & build neural networks with PyTorch
 - Study & build DL architectures with PyTorch
@@ -26,6 +26,8 @@ Complete Deep Learning concepts &amp; Architectures implemented using PyTorch. T
 #### 📂 Repository Structure
 ```
 complete-deep-learning
+├── images
+│
 ├── datasets
 │   └── images-text-audio-misc
 │
@@ -225,7 +227,3 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ### 🙏Acknowledgements
 - Special thanks to the open-source community / youtube for tools and resources.
-
-
-
-
